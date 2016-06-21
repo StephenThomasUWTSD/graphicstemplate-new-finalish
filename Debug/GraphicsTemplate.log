@@ -1,0 +1,27 @@
+﻿  stdafx.cpp
+  vector.cpp
+  cRenderClass.cpp
+c:\users\macab\desktop\graphics-libraries-git-newest\crenderclass.cpp(392): error C2561: 'cRenderClass::jarvisMarchHull2': function must return a value
+  c:\users\macab\desktop\graphics-libraries-git-newest\crenderclass.cpp(387): note: see declaration of 'cRenderClass::jarvisMarchHull2'
+c:\users\macab\desktop\graphics-libraries-git-newest\crenderclass.cpp(450): error C2562: 'cRenderClass::turnParam': 'void' function returning a value
+  c:\users\macab\desktop\graphics-libraries-git-newest\crenderclass.cpp(423): note: see declaration of 'cRenderClass::turnParam'
+c:\users\macab\desktop\graphics-libraries-git-newest\crenderclass.cpp(506): warning C4018: '<': signed/unsigned mismatch
+c:\users\macab\desktop\graphics-libraries-git-newest\crenderclass.cpp(516): warning C4018: '<': signed/unsigned mismatch
+  cMyMatrix.cpp
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(112): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(113): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(114): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(115): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(116): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(117): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(118): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(119): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(120): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(121): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(122): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(123): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(124): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(125): warning C4552: '/': operator has no effect; expected operator with side-effect
+c:\users\macab\desktop\graphics-libraries-git-newest\cmymatrix.cpp(126): warning C4552: '/': operator has no effect; expected operator with side-effect
+  GraphicsTemplate.cpp
+  Generating Code...
