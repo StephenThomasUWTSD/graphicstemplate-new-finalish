@@ -16,7 +16,7 @@
 #include "globals.h"
 #include "cRenderClass.h"
 #include "cMyMatrix.h"
-#include "vector.h"
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <vector>

@@ -1,6 +1,6 @@
 
 #include "stdafx.h" //throws up horrendous amounts of errors
-
+cMyMatrix MyMatrix;
 #define _USE_MATH_DEFINES
 #include <math.h>
 cMyMatrix::cMyMatrix()
@@ -8,7 +8,7 @@ cMyMatrix::cMyMatrix()
 	identity();
 }
 //#define pi 3.14....
-cMyMatrix MyMatrix;
+
 //identity matrix
 void cMyMatrix::identity()
 {
@@ -41,16 +41,17 @@ void cMyMatrix::uScale(float value)
 	(m[15] = 1);
 
 }
-
-//translation matrix
+float t[4];
+//translation matrix 
+int x; int y; int z; int w;
 void cMyMatrix::translation()
 {
 	//create a translation matrix
-	float t[4];
-	t[0] = (1 * v[0]) + (m[3] * m[15]);
-	t[1] = (1 * v[1]) + (m[7] * m[15]);
-	t[2] = (1 * v[2]) + (m[11] * m[15]);
-	t[3] = 1;
+	
+	x = (1 * v[0]) + (m[3] * m[15]);
+	y = (1 * v[1]) + (m[7] * m[15]);
+	z = (1 * v[2]) + (m[11] * m[15]);
+	w = 1;
 
 }
 
@@ -158,7 +159,8 @@ void cMyMatrix::matrixByVector()
 	sum[1] = mv[4] * v[0] + mv[5] * v[1] + mv[6] * v[2] + mv[7] * v[3];
 	
 }
-
+//should really use a specific value for pi as M_PI can cause small rounding inconsistencies. 
+//not so important for this but if i need to do anything network based comparing float values etc then it could make a difference.
 //degrees to radians
 float cMyMatrix::degToRad(float degrees)
 {
